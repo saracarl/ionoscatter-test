@@ -23,6 +23,14 @@
         "id": "https://saracarl.github.io/ionoscatter-test/ionoscatter/canvas-1/canvas",
         "type": "Canvas",
         "duration": 164,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://saracarl.github.io/ionoscatter-test/ionoscatter/canvas-1/canvas/Scatter.json",
+            "label": "Scatter"
+          }
+        ],
         "items": [
           {
             "id": "https://saracarl.github.io/ionoscatter-test/ionoscatter/canvas-1/paintings",
