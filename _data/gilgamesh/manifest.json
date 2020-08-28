@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://saracarl.github.io/ionoscatter-test/gilgamesh/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Gilgamesh" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/Gilgamesh_201403",
+        "type": "Text",
+        "label": { "en": [ "Home page for Gilgamesh" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://saracarl.github.io/ionoscatter-test/gilgamesh/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 174.74,
+        "items": [
+          {
+            "id": "https://saracarl.github.io/ionoscatter-test/gilgamesh/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://saracarl.github.io/ionoscatter-test/gilgamesh/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/audio_poetry_101_2006/GilgameshLament.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 174.74
+                },
+                "target": "https://saracarl.github.io/ionoscatter-test/gilgamesh/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
